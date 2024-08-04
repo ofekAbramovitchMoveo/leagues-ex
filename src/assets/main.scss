@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.leagues-index {
+    text-align: center;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    margin: 10px;
+    text-align: center;
+}
+
+.team img {
+    width: 100px;
+    height: 100px;
+}
+
+.Mui-selected {
+    color: rgb(212, 206, 206) !important;
+}
